@@ -1,0 +1,9 @@
+div{
+    background-image: url(../images/atlanta.jpg);
+    height: 230px;
+    margin:-8px;
+    margin-top: -21 px;
+    padding:10px;
+    color:white;
+    font-style: italic;
+}

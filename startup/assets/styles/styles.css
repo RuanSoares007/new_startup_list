@@ -1,0 +1,106 @@
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    font-style: italic;
+    text-shadow: black;
+
+}
+div{
+    height: 190px;
+    width: 290px;
+    text-align: center;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    
+    
+}
+.country {
+
+    filter: grayscale(0%);
+  }
+  
+  .country:hover {
+    cursor: pointer; 
+    filter: grayscale(100%);
+    transition: 1s;
+    box-shadow: 5px 10px #ffc68a;
+  }
+  
+  .country p {    
+    text-shadow: 1px 1px #0a0909;
+  }
+.secao{
+    
+    color:white;
+    display:flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    
+}
+.bg-atlanta{
+    
+    display: flex;
+    background-image: url('../images/atlanta.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+.bg-austin{
+    display: flex;
+    background-image: url('../images/austin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-bangalore{
+    display: flex;
+    background-image: url('../images/bangalore.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-berlin{
+    display: flex;
+    background-image: url('../images/berlin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-boston{
+    display: flex;
+    background-image: url('../images/boston.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-boulder{
+    display: flex;
+    background-image: url('../images/boulder.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-chicago{
+    display: flex;
+    background-image: url('../images/chicago.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-hong-kong{
+    display: flex;
+    background-image: url('../images/hong-kong.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-houston{
+    display: flex;
+    background-image: url('../images/houston.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-london{
+    display: flex;
+    background-image: url('../images/london.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
